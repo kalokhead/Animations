@@ -23,7 +23,7 @@ const CustomAnimation = () => {
       -1,
       true,
       () => {
-        console.log("Hi");
+        console.log("callback functions");
       }
     );
   }, []);
