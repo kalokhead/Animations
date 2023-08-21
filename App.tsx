@@ -5,6 +5,7 @@ import SimpleAnimations from "./component/screens/SimpleAnimations";
 import CustomAnimation from "./component/screens/CustomAnimation";
 import Modifiers from "./component/screens/Modifiers";
 import GestureHandler from "./component/screens/GestureHandler";
+import Ref from "./component/screens/Ref";
 
 // screens
 const Stack = createNativeStackNavigator();
@@ -12,7 +13,7 @@ const App = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator
-        initialRouteName="GestureHandler"
+        initialRouteName="Ref"
         screenOptions={{
           headerShown: false,
         }}
@@ -21,6 +22,7 @@ const App = () => {
         <Stack.Screen name="CustomAnimation" component={CustomAnimation} />
         <Stack.Screen name="Modifiers" component={Modifiers} />
         <Stack.Screen name="GestureHandler" component={GestureHandler} />
+        <Stack.Screen name="Ref" component={Ref} />
       </Stack.Navigator>
     </NavigationContainer>
   );
