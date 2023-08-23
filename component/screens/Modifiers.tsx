@@ -64,7 +64,12 @@ const Modifiers = () => {
           ]}
         ></Animated.View>
       </View>
-      <View style={{ flex: 0.2, justifyContent: "space-around" }}>
+      <View
+        style={{
+          flex: 0.2,
+          justifyContent: "space-around",
+        }}
+      >
         <Button
           title="WithOut Delay AND in Sequence"
           onPress={() => {
